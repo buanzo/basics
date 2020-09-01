@@ -20,9 +20,11 @@ def get_version():
 #    long_description = f.read()
 
 
+description='A couple of useful functions like printerr, pprinterr, envOrDefault, etc'
+
 setup(name='buanzobasics',
       version=get_version(),
-      description='A couple of useful functions like printerr, pprinterr, envOrDefault, etc',
+      description=description,
       long_description=description,
       keywords='''python3,utility''',
       author='Arturo "Buanzo" Busleiman',
