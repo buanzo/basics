@@ -23,7 +23,7 @@ def get_version():
 setup(name='buanzobasics',
       version=get_version(),
       description='A couple of useful functions like printerr, pprinterr, envOrDefault, etc',
-      long_description=description
+      long_description=description,
       keywords='''python3,utility''',
       author='Arturo "Buanzo" Busleiman',
       author_email='buanzo@buanzo.com.ar',
