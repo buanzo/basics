@@ -77,4 +77,4 @@ def is_valid_hostname(hostname):
 
 if __name__ == '__main__':
     printerr('You are not supposed to call this script directly.')
-    printerr('Use:\n\tfrom buanzobasics import printerr,pprinterr\n')
+    printerr('Use:\n\tfrom buanzobasics.buanzobasics import printerr,pprinterr\n')
